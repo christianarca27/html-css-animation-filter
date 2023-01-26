@@ -72,3 +72,19 @@
     border-radius: 50px;
     transform: scale(1.5);
 }
+
+@keyframes ruota {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0);
+    }
+}
+
+.ex-10-icon {
+    animation-name: ruota;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
