@@ -62,3 +62,13 @@
     filter: blur(5px) grayscale(100%);
     border-radius: 50px;
 }
+
+.ex-9-img {
+    transition: filter 2s, border-radius 1s, transform 3s;
+}
+
+.ex-9-img:hover {
+    filter: blur(5px) grayscale(100%);
+    border-radius: 50px;
+    transform: scale(1.5);
+}
