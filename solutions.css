@@ -53,3 +53,12 @@
 .ex-7-img:hover {
     filter: grayscale(100%) brightness(50%);
 }
+
+.ex-8-img {
+    transition: filter 2s, border-radius 1s;
+}
+
+.ex-8-img:hover {
+    filter: blur(5px) grayscale(100%);
+    border-radius: 50px;
+}
