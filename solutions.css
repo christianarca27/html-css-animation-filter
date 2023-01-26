@@ -132,3 +132,65 @@
     animation-timing-function: linear;
     animation-duration: 2s;
 }
+
+@keyframes trasla-dx-alt {
+    0% {
+
+    }
+    20% {
+        top: -10px;
+        left: calc(100% - 30px);
+    }
+    40% {
+        top: 55px;
+        left: calc(100% - 30px);
+    }
+    60% {
+        top: 55px;
+        left: -20px;
+    }
+    80% {
+        top: -10px;
+        left: -20px;
+    }
+    100% {
+
+    }
+}
+
+@keyframes trasla-sx-alt {
+    0% {
+
+    }
+    20% {
+        top: 55px;
+        right: calc(100% - 40px);
+    }
+    40% {
+        top: -10px;
+        right: calc(100% - 40px);
+    }
+    60% {
+        top: -10px;
+        right: -30px;
+    }
+    80% {
+        top: 55px;
+        right: -30px;
+    }
+    100% {
+        
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: trasla-dx-alt;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: trasla-sx-alt;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+}
