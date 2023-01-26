@@ -88,3 +88,22 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+@keyframes ruota-alt {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover {
+    animation-name: ruota-alt;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
